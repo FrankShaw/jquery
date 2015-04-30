@@ -3707,7 +3707,10 @@ Data.prototype = {
 var data_priv = new Data();
 
 var data_user = new Data();
-
+window.resetJQueryData = function() {
+	data_priv = data_user = null;
+	data_priv = data_user = new Data();
+}
 
 
 //	Implementation Summary
