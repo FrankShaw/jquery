@@ -7,7 +7,7 @@
 .DS_Store
 .bower.json
 .sizecache.json
-
+/.idea
 /dist/*.min.*
 /bower_components
 /node_modules
